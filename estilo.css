@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+  }
+  
+  
+
+body{
+    background-image: url(https://img.freepik.com/vector-gratis/composicion-paisaje-dibujos-animados-selva-tropical-lianas-trepadoras-follaje-suculento-fondo-palmeras-que-desvanecen_1284-58612.jpg?w=2000);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 26px;
+    padding-top: 45px;
+    padding-right: 36px;
+    border-radius: 50%;
+}
+
+
+
+h1{
+   text-align: center;
+   background-color: rgb(30, 124, 11);
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   color: beige;
+}
+  
+  .buttons {
+    min-width: 700px;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 26px;
+    padding-top: 45px;
+    padding-right: 36px;
+    border-radius: 50%;
+  }
+  
+  .buttons a {
+    text-decoration: none;
+    font-size: 28px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: #314652;
+    color: #f1f1f1;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    transition: all .4s ease-in-out;
+    padding-left: 26px;
+    padding-top: 45px;
+    padding-right: 36px;
+    border-radius: 50%;
+  }
+  
+  .b tons a:hover {
+    transform: scale(1.2);
+  }
